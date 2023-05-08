@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #153559;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #2C74B3;
+  --heading-text-color: #144272;
+}
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth;
+  max-width:100%;
+  letter-spacing: 0.5px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+
+section{
+  padding: 40px 0;
+}
+
+@media only screen and (max-width: 567px) {
+  section{
+    padding: 20px;
+  }
+}
+
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .hero_sec h2{
+      font-size:1.5rem ;
+  }
+  .hero_sec p{
+      font-size: .9rem;
+  }
+  .hero_sec .btn{
+      font-size: .9rem;
+  }
+  
+}
+
+@media only screen and (max-width: 576px) {
+  .hero_sec {
+      padding-top: 0;
+      margin-bottom: 40px;
+
+  }
+}
+
+.users_box span, .products_box span, .order_box span, .revenue_box span {
+  font-size:2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+
+}
+

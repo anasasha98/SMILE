@@ -1,0 +1,39 @@
+.product_item{
+    cursor: pointer;
+}
+.product_item img{
+    max-width: 100%;
+  height: 210px;
+  background-size: cover;
+  
+}
+.product_title{
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+}
+.product_title a:hover{
+    color: inherit;
+}
+.product_title span{
+    font-size: 0.9rem;
+
+
+}
+.product_card-bottom{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+.product_title span i{
+    font-size: 1.2rem;
+    padding: 5px;
+    background: var(--primary-color) ;
+    color: #fff;
+    border-radius: 50%;
+
+} 
+
+

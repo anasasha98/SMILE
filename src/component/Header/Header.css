@@ -1,0 +1,72 @@
+.navBar a {
+    font-size:14px;
+    font-weight:700;
+    
+  }
+ 
+  .navBar .superNav {
+    font-size:13px;
+  }
+  .navBar .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .navBar .centerOnMobile {
+      text-align:center
+    }
+  }
+  
+.navBar img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+   
+}  
+
+.navBar img{
+  position: relative;
+  z-index : 9; 
+}
+
+.navBar  .profile_actions{
+  position: absolute;
+  top :72%;
+  width: 150px !important ;
+  z-index: 10;
+  padding: 15px;
+ 
+  text-align: center;
+  flex-direction: column;
+  background: #CEEBE9;
+  line-height: 30px;
+  display: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.show_profile-actions{
+  display: block !important;
+}
+
+.navBar .iconClass{
+    position: relative;
+  }
+  .navBar .iconClass span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+  }
+
+  
+  .sticky_header{
+    width: 100%;
+    position:sticky !important;
+    top: 0 !important;
+    left: 0;
+    z-index: 999 !important;
+    
+    
+  }
+
+ 

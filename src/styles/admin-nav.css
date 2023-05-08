@@ -1,0 +1,80 @@
+.admin_header {
+    width: 100%;
+    color: #fff;
+    padding: 10px 0;
+    background-color: var(--primary-color) !important;
+}
+
+.admin_nav-top {
+    width: 100%;
+
+}
+
+.admin_nav-wrapper-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 4rem;
+
+}
+
+
+.admin_nav-top-right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.admin_nav-top-right {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+
+.admin_menu {
+    width: 100%;
+    height: auto;
+
+    background: var(--card-bg-01);
+}
+
+.admin_navigate {
+    text-align: center;
+}
+
+.admin_menu-list {
+
+    padding: 10px;
+
+    justify-content: center;
+}
+
+.admin_menu-item {
+    margin-left: 10px;
+    border:none !important;
+    border-radius: 10px !important;
+    background-color: transparent !important;
+}
+
+.admin_menu-item a {
+   
+    color: var(--primary-color);
+    font-weight: 500;
+  
+
+
+
+}
+
+.active_admin-menu{
+    background: #fff;
+   
+    
+    border:none !important;
+    border-radius: 10px !important;
+    padding: 10px;
+  
+   
+}

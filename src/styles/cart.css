@@ -1,0 +1,12 @@
+.cart_titles{
+    color: var(--primary-color);
+}
+td ,th{
+    color: var(--primary-color);
+}
+.btn_cart .btn{
+    background-color: var(--primary-color);
+    display: block;
+    
+}
+

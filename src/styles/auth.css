@@ -1,0 +1,12 @@
+.auth_form{
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+.auth_form p{
+    color: #fff;
+}
+.auth_form .btn{
+    border: none;
+}
+

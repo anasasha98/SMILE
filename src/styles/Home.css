@@ -1,0 +1,57 @@
+.hero_sec{
+    background: var(--hero-bg);
+}
+
+.hero_sec h2{
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.hero_sec p{
+    color: #111;
+    font-weight: 700;
+}
+
+.hero_sec .shop_btn{
+    /* background-color: var(--primary-color) !important; */
+    font-size: 1rem;
+}
+
+.hero_sec p:nth-child(1){
+    font-weight: 400;
+}
+
+.timer_count{
+    background-color: var(--primary-color) ;
+    height: 300px;
+    display: flex;
+
+}
+.timer_count img{
+        width: 60% !important;
+        height: 60% !important;
+        object-fit:contain ;
+        border-radius: 10%;
+
+}
+
+@media only screen and (max-width: 992px) {
+    .hero_sec h2{
+        font-size:2rem ;
+    }
+    .timer_img {
+        display: none;
+    }
+    .clock_content {
+        text-align: center;
+    }
+    .timer_count{
+        text-align: center;
+    }
+    .clock_sec{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+

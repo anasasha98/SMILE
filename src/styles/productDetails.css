@@ -1,0 +1,112 @@
+.product_detail{
+    margin-bottom: 50px;
+
+}
+.product_detail h2{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+
+}
+
+.product_rating span i{
+    color:coral;
+
+}
+
+.product_rating p span{
+    color:coral;
+    font-weight: 500;
+
+
+}
+
+.product_detail-price{
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+.product_detail .btn , .review_form .btn{
+    background-color: var(--primary-color);
+
+}
+
+.tab_details {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.active_tab{
+    font-weight: 600;
+}
+
+.tab_content p{
+    line-height: 30px;
+}
+
+.review_details ul li span {
+    color:coral;
+    font-weight: 600;
+
+}
+.review_details ul li p{
+    margin-top: 10px;
+}
+
+.review_form{
+    width: auto;
+   margin: auto;
+   margin-top: 50px ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.review_form h4{
+    font-size: 1.2rem;
+    font-weight:600 ;
+    margin-bottom: 30px;
+
+
+} 
+.form-group input , .form-group textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color) !important;
+    border-radius: 5px;
+    padding: 8px 20px;
+
+}
+.form-group input:focus,.form-group textarea:focus {
+outline: none !important;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-group span{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: coral;
+    font-weight: 600;
+  margin-right: 25px;
+
+}
+
+.related_title{
+    font-size:1.2rem ;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .product_detail h2{
+        font-size: 1.3rem;
+
+    }
+    .rating_group{
+column-gap: 1rem !important;
+    }
+}
